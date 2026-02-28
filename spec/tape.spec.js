@@ -7,7 +7,7 @@
 //    $ npm test
 
 // Imports
-import { dna }   from 'dna-engine';
+import { dna }   from 'dna-dom';
 import { JSDOM } from 'jsdom';
 import fs        from 'fs';
 import spec      from 'tape';
