@@ -7,14 +7,14 @@
 //    $ npm test
 
 // Imports
-import { dna }   from 'dna-dom';
+import { dna } from 'dna-dom';
 import { JSDOM } from 'jsdom';
-import fs        from 'fs';
-import spec      from 'tape';
-import faucet    from 'faucet';
+import fs     from 'node:fs';
+import spec   from 'tape';
+import faucet from 'faucet';
 
 // Modules
-import { app }   from '../app.js';
+import { app } from '../app.js';
 
 // Setup
 const html = fs.readFileSync('spec/fixtures/sample.html', 'utf-8');
